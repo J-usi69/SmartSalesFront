@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "lib": [
       "dom",
@@ -39,4 +40,17 @@
   "exclude": [
     "node_modules"
   ]
+=======
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+>>>>>>> 4e1708fc2a857dafaa7e9752f22c7956cd3bf7e6
 }
